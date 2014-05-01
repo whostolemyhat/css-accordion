@@ -18,7 +18,7 @@ module.exports = function(grunt) {
                 files: [
                     '<%= app %>/sass/**/*.scss',
                 ],
-                tasks: ['newer:sass:dev']
+                tasks: ['sass:dev']
             },
 
             scripts: {
@@ -124,5 +124,5 @@ module.exports = function(grunt) {
 
     grunt.registerTask('default', ['connect:livereload', 'watch']);
     grunt.registerTask('lint', ['jshint', 'csslint:lax']);
-    grunt.registerTask('build', ['jshint', 'clean', 'newer:uglify', 'sass:prod']);
+    grunt.registerTask('build', ['jshint', 'clean', 'uglify', 'sass:prod']);
 };

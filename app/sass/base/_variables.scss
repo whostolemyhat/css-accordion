@@ -1,0 +1,36 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+/* Base
+   ========================================================================== */
+
+/* Colors */
+
+$colorYellow:                   #ffc423;
+$colorSecondary:                orange;
+$colorWhite:                    #fff;
+
+/* Typography  */
+
+$baseFontSize:                  18; // No px on this
+$baseLineHeight:                25px; 
+$baseFontFamily:                Arial, Helvetica, sans-serif;
+$baseFontColor:                 #444444;
+
+$headingFontFamily:             Arial, Helvetica, sans-serif;
+$headingColor:                  #444444;
+
+$headingAlpha:                  48px;
+$headingBeta:                   36px;
+$headingGamma:                  24px;
+$headingDelta:                  20px;
+$headingEpsilon:                20px;
+$headingZeta:                   20px;
+
+/* Links  */
+$linkColor:                     $baseFontColor;
+$linkVisited:                   $baseFontColor;
+$linkHover:                     $colorYellow;
+$linkActive:                    $colorYellow;
+$linkFocus:                     $colorYellow;

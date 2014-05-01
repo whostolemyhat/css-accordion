@@ -1,15 +1,8 @@
-@import "modules/_normalise";
-@import "modules/_helpers";
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_normalise";
+@import "base/_helpers";
+@import "base/_typography";
 
-html,
-button,
-input,
-select,
-textarea {
-    color: #444;
-}
-
-html {
-    font-size: 1em;
-    line-height: 1.4;
-}
+@import "modules/_grid";
+@import "modules/_accordion";
