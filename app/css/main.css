@@ -3,7 +3,7 @@
    ========================================================================== */
 /* Base
    ========================================================================== */
-/* Colors */
+/* Colours */
 /* Typography  */
 /* Links  */
 /* ==========================================================================
@@ -516,7 +516,7 @@ a {
   color: #444444;
   background: transparent;
   text-decoration: none;
-  border-bottom: 1px solid #ffc423;
+  border-bottom: 1px solid #3fa80a;
   -webkit-transition: color 300ms ease-in-out;
   -moz-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out; }
@@ -527,16 +527,16 @@ a:visited {
 
 /* line 94, ../sass/base/_typography.scss */
 a:hover {
-  color: #ffc423; }
+  color: #3fa80a; }
 
 /* line 98, ../sass/base/_typography.scss */
 a:focus {
   outline: thin dotted;
-  color: #ffc423; }
+  color: #3fa80a; }
 
 /* line 103, ../sass/base/_typography.scss */
 a:active {
-  color: #ffc423; }
+  color: #3fa80a; }
 
 /* line 1, ../sass/modules/_grid.scss */
 .main {
@@ -579,20 +579,21 @@ a:active {
   .accordion-trigger a {
     display: table;
     width: 100%;
-    background: #ffc423;
+    background: #3fa80a;
     font-weight: 700;
     text-decoration: none;
-    border: none; }
-    /* line 39, ../sass/modules/_accordion.scss */
+    border: none;
+    color: white; }
+    /* line 40, ../sass/modules/_accordion.scss */
     .accordion-trigger a:hover {
-      color: #444444; }
-  /* line 44, ../sass/modules/_accordion.scss */
+      color: white; }
+  /* line 45, ../sass/modules/_accordion.scss */
   .accordion-trigger .iconText {
     display: table-cell;
     padding: 14px 20px;
     padding:  0.77778rem 1.11111rem; }
 
-/* line 52, ../sass/modules/_accordion.scss */
+/* line 53, ../sass/modules/_accordion.scss */
 .arrow {
   display: table-cell;
   -webkit-transition: all 300ms ease-in-out;
@@ -604,7 +605,7 @@ a:active {
   vertical-align: middle;
   font-size: 2em; }
 
-/* line 63, ../sass/modules/_accordion.scss */
+/* line 64, ../sass/modules/_accordion.scss */
 .open .arrow {
   -webkit-transform: rotate(0.5turn);
   -moz-transform: rotate(0.5turn);

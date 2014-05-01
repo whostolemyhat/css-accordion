@@ -31,13 +31,14 @@
     a {
         display: table;
         width: 100%;
-        background: #ffc423;
+        background: $colourPrimary;
         font-weight: 700;
         text-decoration: none;
         border: none;
+        color: $colourWhite;
 
         &:hover {
-            color: $baseFontColor;
+            color: $colourWhite;
         }
     }
 

@@ -5,21 +5,22 @@
 /* Base
    ========================================================================== */
 
-/* Colors */
+/* Colours */
 
-$colorYellow:                   #ffc423;
-$colorSecondary:                orange;
-$colorWhite:                    #fff;
+$colourPrimary:                   #3FA80A;
+$colourSecondary:                orange;
+$colourWhite:                    #fff;
+$colourGrey:                     #444;
 
 /* Typography  */
 
 $baseFontSize:                  18; // No px on this
 $baseLineHeight:                25px; 
 $baseFontFamily:                Arial, Helvetica, sans-serif;
-$baseFontColor:                 #444444;
+$baseFontColour:                 #444;
 
 $headingFontFamily:             Arial, Helvetica, sans-serif;
-$headingColor:                  #444444;
+$headingColour:                  #444;
 
 $headingAlpha:                  48px;
 $headingBeta:                   36px;
@@ -29,8 +30,8 @@ $headingEpsilon:                20px;
 $headingZeta:                   20px;
 
 /* Links  */
-$linkColor:                     $baseFontColor;
-$linkVisited:                   $baseFontColor;
-$linkHover:                     $colorYellow;
-$linkActive:                    $colorYellow;
-$linkFocus:                     $colorYellow;
+$linkColour:                    $baseFontColour;
+$linkVisited:                   $baseFontColour;
+$linkHover:                     $colourPrimary;
+$linkActive:                    $colourPrimary;
+$linkFocus:                     $colourPrimary;
